@@ -25,9 +25,10 @@ export default function CrmOs() {
 
   if (!isLoggedIn)
     return (
-      <Localization>
-        <AuthRouter />
-      </Localization>
+      // <Localization>
+      //   <AuthRouter />
+      // </Localization>
+      <DefaultApp />
     );
   else {
     return <DefaultApp />;
